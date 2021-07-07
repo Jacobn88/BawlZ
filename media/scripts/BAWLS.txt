@@ -1,0 +1,45 @@
+module BWL 
+{
+    imports
+    {
+        base
+    }
+    
+    item BAWLS
+	{
+		HungerChange	=	-12,
+		Weight	=	0.6,
+		Type	=	Food,
+		UnhappyChange	=	-30,
+		ThirstChange	=	-85,
+		DisplayName	=	Bawls,
+		ReplaceOnUse	=	BAWLS_empty,
+		Icon	=	BAWLS_full,
+		CustomContextMenu = Drink,
+		CustomEatSound = bawls-sound-effect,
+        Carbohydrates = 45,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 120,
+        Packaged = TRUE,
+        CantBeFrozen = TRUE,
+        StaticModel = PopBottle,
+        EatType = bottle,
+	}
+    item BAWLS_empty
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	0.2,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Bawls Bottle,
+		ReplaceOnDeplete	=	PopBottleEmpty,
+		ReplaceOnUseOn	=	WaterSource-WaterPopBottle,
+		Icon	=	BAWLS_empty,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottle,
+		StaticModel = PopBottle,
+	}
+}
