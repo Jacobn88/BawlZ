@@ -5,7 +5,7 @@ BawlZ are powerful energy drinks that will keep you alert for the short time you
 
 ![WS2](https://i.imgur.com/ycwW53j.jpg)
 ## Spawn Locations:
-To get your hands on a BawlZ you'll need to venture to one of these places:
+To find a BawlZ you'll need to venture to one of these places:
 
   Location | Spawn Chance
 --------|-------------
