@@ -25,10 +25,8 @@ Put the BawlZ folder in C:\users\ __your username__ \Zomboid\mods\ and enable it
 ### Note:
 This mod is made for the beta build of Project Zomboid. In order to opt in to the beta build,  right click on Project Zomboid in your Steam library and select "Properties". Navigate to the Betas tab and select "iwillbackupmysave" from the drop-down menu for the most current version (41.53).
 
-### Mod info:
-This is a lightweight mod that makes minimal changes to vanilla loot tables.
+![WS4](https://i.imgur.com/bKviOeF.jpg)
 
+### Mod info:
 Workshop ID: 2540395105
 Mod ID: BWL
-
-![WS4](https://i.imgur.com/bKviOeF.jpg)
