@@ -10,7 +10,7 @@ To find a BawlZ you'll need to venture to one of these places:
   Location | Spawn Chance
 --------|-------------
 GigaMarts| ![bottle](https://i.imgur.com/1P8oCLy.png)![bottle](https://i.imgur.com/1P8oCLy.png)![bottle](https://i.imgur.com/1P8oCLy.png)
-Supermarkets | ![bottle](https://i.imgur.com/1P8oCLy.png)![bottle](https://i.imgur.com/1P8oCLy.png)
+General Stores | ![bottle](https://i.imgur.com/1P8oCLy.png)![bottle](https://i.imgur.com/1P8oCLy.png)
 Pharmacies | ![bottle](https://i.imgur.com/1P8oCLy.png)![bottle](https://i.imgur.com/1P8oCLy.png)
 Gas Stations | ![bottle](https://i.imgur.com/1P8oCLy.png)
 Corner Stores | ![bottle](https://i.imgur.com/1P8oCLy.png)
