@@ -19,7 +19,7 @@ Grocery Stores | ![bottle](https://i.imgur.com/1P8oCLy.png)
 
 ![image](https://user-images.githubusercontent.com/70669546/128584382-8260b32b-8aae-4618-b51a-cd1d66319bb9.png)
 ### Installation instructions:
-Put the BawlZ folder in C:\users\*your user name*\Zomboid\mods\ and enable it in game in the mods menu.
+Put the BawlZ folder in C:\users\ __your username__ \Zomboid\mods\ and enable it in the mods menu.
 
 
 ### Note:
