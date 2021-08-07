@@ -18,6 +18,10 @@ Grocery Stores | ![bottle](https://i.imgur.com/1P8oCLy.png)
 
 
 ![image](https://user-images.githubusercontent.com/70669546/128584382-8260b32b-8aae-4618-b51a-cd1d66319bb9.png)
+### Installation instructions:
+Put the BawlZ folder in C:\users\*your user name*\Zomboid\mods\ and enable it in game in the mods menu.
+
+
 ### Note:
 This mod is made for the beta build of Project Zomboid. In order to opt in to the beta build,  right click on Project Zomboid in your Steam library and select "Properties". Navigate to the Betas tab and select "iwillbackupmysave" from the drop-down menu for the most current version (41.53).
 
