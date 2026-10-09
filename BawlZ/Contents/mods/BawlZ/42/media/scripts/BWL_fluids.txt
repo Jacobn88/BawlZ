@@ -1,0 +1,38 @@
+module Base
+{
+    /* Properties are per litre. A full 0.3 L BawlZ bottle gives 0.3x these
+       values, matching the original B41 item: thirst -85, hunger -12,
+       unhappiness -15, fatigue -30, 120 calories, 45 g carbs. */
+    fluid BWL_BawlZ
+    {
+        Color = 0.980 : 0.860 : 0.450, /* rgb(250, 219, 115) */
+        DisplayName = Fluid_Name_BWL_BawlZ,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            fatigueChange = -100.0,
+            HungerChange = -40.0,
+            StressChange = 0.0,
+            ThirstChange = -283.3,
+            UnhappyChange = -50.0,
+            Calories = 400.0,
+            Carbohydrates = 150.0,
+            Lipids = 0.0,
+            Proteins = 0.0,
+        }
+
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+}

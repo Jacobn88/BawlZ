@@ -1,0 +1,92 @@
+module BWL
+{
+    imports
+    {
+        Base
+    }
+
+    /* A twist-off glass bottle of BawlZ, set up like vanilla's beer bottle.
+       Drinking empties the same item ("Empty BawlZ Bottle"), which can then
+       be refilled from any water source. */
+    item BAWLS
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 0.4,
+        Icon = BAWLS_full,
+        EatType = Bottle,
+        Packaged = true,
+        CustomContextMenu = Drink,
+        FillFromDispenserSound = GetWaterFromDispenserGlass,
+        FillFromLakeSound = GetWaterFromLakeBottle,
+        FillFromTapSound = GetWaterFromTapGlass,
+        FillFromToiletSound = GetWaterFromToilet,
+        StaticModel = BWL.Bawls_static,
+        WorldStaticModel = BWL.Bawls_ground,
+        Tags = base:glass;base:glassbottlesmall,
+        component FluidContainer
+        {
+            ContainerName = BawlZBottle,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+            Fluids
+            {
+                fluid = BWL_BawlZ:1.0,
+            }
+        }
+        component Durability
+        {
+            Material = Glass_Light,
+            MaxHitPoints = 1.0,
+        }
+    }
+
+    /* No longer spawned or created by drinking; kept so existing bottles in
+       saves still load. */
+    item BAWLS_empty
+    {
+        DisplayCategory = WaterContainer,
+        ItemType = base:normal,
+        Weight = 0.4,
+        Icon = BAWLS_empty,
+        FillFromDispenserSound = GetWaterFromDispenserGlass,
+        FillFromLakeSound = GetWaterFromLakeBottle,
+        FillFromTapSound = GetWaterFromTapGlass,
+        FillFromToiletSound = GetWaterFromToilet,
+        StaticModel = BWL.Bawls_static,
+        WorldStaticModel = BWL.Bawls_ground,
+        Tags = base:glass;base:glassbottlesmall,
+        component FluidContainer
+        {
+            ContainerName = BawlZBottle,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+        component Durability
+        {
+            Material = Glass_Light,
+            MaxHitPoints = 1.0,
+        }
+    }
+
+    model Bawls_static
+    {
+        mesh = Bawls_static,
+        texture = Bawls_static,
+        scale = 1.0,
+    }
+
+    /* Dropped-on-the-floor version. The mesh origin sits 0.0587 above the
+       base of the bottle, so this attachment point puts the base on the ground. */
+    model Bawls_ground
+    {
+        mesh = Bawls_static,
+        texture = Bawls_static,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0 -0.0587 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+}
