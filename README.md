@@ -1,32 +1,46 @@
 ![WS1](https://i.imgur.com/0VdIkml.jpeg)
 
 ## Overview:
-BawlZ are powerful energy drinks that will keep you alert for the short time you have left.
+BawlZ will keep you alert for the short time you have left.
+
+Supports **Build 42** and **Build 41**.
+
+### What's New in Build 42:
+- BawlZ uses the new fluid system: drink it all at once or take a few sips.
+- Empty bottles can be refilled from any water source.
+- Vanilla-style names and weights, matching the vanilla beer bottle.
+
+### Stats (full bottle):
+Stat | Value
+--------|-------------
+Thirst | -85
+Fatigue | -30
+Unhappiness | -15
+Hunger | -12
+Calories | 120
+Carbohydrates | 45
 
 ![WS2](https://i.imgur.com/ycwW53j.jpg)
-## Spawn Locations:
-To find a BawlZ you'll need to venture to one of these places:
+## Where to Find It:
+Look on drink shelves and in soda fridges at:
+- Gigamarts, grocery stores and general stores
+- Gas stations, corner stores and Zippee Markets
+- Pharmacies, garden stores and candy stores
 
-  Location | Spawn Chance
---------|-------------
-GigaMarts| ![bottle](https://i.imgur.com/1P8oCLy.png)![bottle](https://i.imgur.com/1P8oCLy.png)![bottle](https://i.imgur.com/1P8oCLy.png)
-General Stores | ![bottle](https://i.imgur.com/1P8oCLy.png)![bottle](https://i.imgur.com/1P8oCLy.png)
-Pharmacies | ![bottle](https://i.imgur.com/1P8oCLy.png)![bottle](https://i.imgur.com/1P8oCLy.png)
-Gas Stations | ![bottle](https://i.imgur.com/1P8oCLy.png)
-Corner Stores | ![bottle](https://i.imgur.com/1P8oCLy.png)
-Grocery Stores | ![bottle](https://i.imgur.com/1P8oCLy.png)
-
+You may also find them at cafeterias, and in the soda fridges at Spiffo's, Pizza Whirled, sushi restaurants, cyber cafés and movie theaters.
 
 ![image](https://user-images.githubusercontent.com/70669546/128584382-8260b32b-8aae-4618-b51a-cd1d66319bb9.png)
 ### Installation instructions:
-Put the BawlZ folder in C:\users\ __your username__ \Zomboid\mods\ and enable it in the mods menu.
+The easiest way is to subscribe on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2540395105).
 
-
-### Note:
-This mod is made for the beta build of Project Zomboid. In order to opt in to the beta build,  right click on Project Zomboid in your Steam library and select "Properties". Navigate to the Betas tab and select "iwillbackupmysave" from the drop-down menu for the most current version (41.53).
+To install manually, put the `BawlZ` folder in `C:\Users\<your username>\Zomboid\Workshop\` and enable it in the Mods menu. The game loads the right version automatically:
+- **Build 42** uses `Contents/mods/BawlZ/42/` and `Contents/mods/BawlZ/common/`
+- **Build 41** uses the files directly in `Contents/mods/BawlZ/`
 
 ![WS4](https://i.imgur.com/bKviOeF.jpg)
 
 ### Mod info:
+In Build 42, BawlZ is added alongside vanilla drinks without removing or changing any vanilla spawns.
+
 Workshop ID: 2540395105
 Mod ID: BWL
