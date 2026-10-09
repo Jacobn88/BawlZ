@@ -7,8 +7,6 @@ Supports **Build 42** and **Build 41**.
 
 ### What's New in Build 42:
 - BawlZ uses the new fluid system: drink it all at once or take a few sips.
-- Empty bottles can be refilled from any water source.
-- Vanilla-style names and weights, matching the vanilla beer bottle.
 
 ### Stats (full bottle):
 Stat | Value
